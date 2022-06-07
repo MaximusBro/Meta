@@ -1,0 +1,74 @@
+/* dm-mono-regular - latin */
+@font-face
+	font-family: 'DM Mono'
+	font-style: normal
+	font-weight: 400
+	src: local(''),
+	url('../fonts/dm-mono-v10-latin-regular.woff2') format('woff2'), 
+	url('../fonts/dm-mono-v10-latin-regular.woff') format('woff') 
+/* inter-regular - latin */
+@font-face
+	font-family: 'Inter'
+	font-style: normal
+	font-weight: 400
+	src: local(''),
+	url('../fonts/inter-v11-latin-regular.woff2') format('woff2'), 
+	url('../fonts/inter-v11-latin-regular.woff') format('woff')
+/* audiowide-regular - latin */
+@font-face
+	font-family: 'Audiowide'
+	font-style: normal
+	font-weight: 400
+	src: local(''),
+	url('../fonts/audiowide-v16-latin-regular.woff2') format('woff2'), 
+	url('../fonts/audiowide-v16-latin-regular.woff') format('woff')
+
+html
+	box-sizing: border-box
+*,
+*::before,
+*::after
+	box-sizing: inherit
+body
+	background: #000000
+h1
+	font-family: 'Audiowide'
+	font-style: normal
+	font-weight: 400
+	font-size: 51px
+	line-height: 61px
+	text-transform: uppercase
+	color: #FFFFFF
+	padding-top: 128px
+a
+	text-decoration: none
+	color: #FFFFFF
+.wrapper
+	max-width: 100%
+	margin: 0 240px 0px 40px
+.text__green
+	font-family: 'DM Mono'
+	font-style: normal
+	font-weight: 400
+	font-size: 21px
+	line-height: 32px
+	color: #8DFD1B
+.text
+	font-family: 'Inter'
+	font-style: normal
+	font-weight: 400
+	font-size: 16px
+	line-height: 26px
+	color: #FFFFFF
+@import "_header.sass"
+@import "_intro.sass"
+@import "_collection.sass"
+@import "_artists.sass"
+@import "_story.sass"
+@import "_guitar.sass"
+@import "_roadmap.sass"
+@import "_partners.sass"
+@import "_questions.sass"
+@import "_team.sass"
+@import "_wavediscord.sass"
+@import "_footer.sass"
